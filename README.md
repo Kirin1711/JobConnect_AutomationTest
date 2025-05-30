@@ -49,3 +49,28 @@ Dự án này được xây dựng nhằm thực hành **kiểm thử phần m�
 | Duyệt tin tuyển dụng   | ✔️          | ✔️              |
 | Nộp đơn ứng tuyển      | ✔️          | ✔️              |
 
+## 📂 Cấu trúc thư mục
+
+```bash
+JobConnect-AutomationTest/
+│
+├── JobConnect-Selenium/ # Dự án Selenium chính
+│ ├── Pages/ # Các trang được mô hình hóa theo POM
+│ ├── Tests/ # Các kịch bản test tự động
+│
+├── TestData/ # Dữ liệu kiểm thử dạng Excel
+│ ├── ApplyJob.xlsx
+│ ├── Login.xlsx
+│ ├── PostJob.xlsx
+│ ├── Register.xlsx
+│ └── SearchJob.xlsx
+│
+├── TestCases/ # Các test case thủ công và tự động
+│ ├── JobConnect_AutomationTestCases.xlsx
+│ └── JobConnect_ManualTestCases.xlsx
+│
+├── jobconnect/ # Source dự án JobConnect (backend)
+│ ├── jobconnect.sln
+│ └── recruit.sql # Cơ sở dữ liệu
+│
+└── README.md # File mô tả dự án
