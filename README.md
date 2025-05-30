@@ -56,7 +56,7 @@ JobConnect-AutomationTest/
 │
 ├── JobConnect-Selenium/ # Dự án Selenium chính
 │ ├── Pages/ # Các trang được mô hình hóa theo POM
-│ ├── Tests/ # Các kịch bản test tự động
+│ └── Tests/ # Các kịch bản test tự động
 │
 ├── TestData/ # Dữ liệu kiểm thử dạng Excel
 │ ├── ApplyJob.xlsx
